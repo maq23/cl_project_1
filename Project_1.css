@@ -1,7 +1,8 @@
-#greeting {
-  background-color: #F8F8F8;
-  font-family: 'Palatino', serif;
-  font-size: 24px;
-  margin: 15px;
-}
+/*background image*/
+body {
+	background-image: url("Books.jpg");
+	background-size: 100%;
+	background-position: center;
+	opacity: 0.75;
+	}
 
