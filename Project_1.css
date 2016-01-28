@@ -1,8 +1,15 @@
 /*background image*/
 body {
-	background-image: url("Books.jpg");
+	background-color: darkred;
+	background-image: url("paper.jpg");
 	background-size: 100%;
-	background-position: center;
-	opacity: 0.75;
+	background-repeat: no-repeat;
+	/*background-position: center;*/
+	opacity: 0.5;
 	}
+
+header {
+  	color: white;
+  	text-align: center;
+}
 
