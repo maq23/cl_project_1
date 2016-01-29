@@ -1,15 +1,32 @@
 /*background image*/
 body {
-	background-color: darkred;
+	background-color: black;
 	background-image: url("paper.jpg");
 	background-size: 100%;
 	background-repeat: no-repeat;
 	/*background-position: center;*/
-	opacity: 0.5;
+	opacity: 1.0;
 	}
 
 header {
-  	color: white;
+	font-size: 30px;
+  	color: black;
+  	text-shadow: 2px 2px white;
   	text-align: center;
 }
 
+h1 {
+	display: inline;
+	/*background-color: black;*/
+}
+
+nav {
+	display: inline;
+	font-size: 40px;
+	color: black;
+	text-shadow: 2px 2px white;
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
