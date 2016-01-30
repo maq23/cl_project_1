@@ -20,13 +20,35 @@ h1 {
 	/*background-color: black;*/
 }
 
-nav {
+h2 {
+	text-shadow: -2px -2px white;
+}
+
+ul {
 	display: inline;
+	list-style-type: none;
+	text-align: center;
+	position: fixed;
+	width: 100%;
+	margin: 1000;
+	padding: 0;
+	bottom: 0;
 	font-size: 40px;
-	color: black;
-	text-shadow: 2px 2px white;
-    position: fixed;
-    text-align: center;
-    bottom: 0;
-    width: 100%;
+	/*color: black;*/
+	text-shadow: -2px -2px white;
+}
+
+nav a {
+	color: grey;
+	text-decoration: none;
+}
+
+nav a:hover {
+	text-shadow: -2px -2px red;
+	text-decoration: underline;
+}
+
+nav a:active {
+	text-shadow: -2px -2px #003300;
+	text-decoration: none;
 }
