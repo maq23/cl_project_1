@@ -11,7 +11,7 @@ body {
 header {
 	font-size: 30px;
   	color: black;
-  	text-shadow: 2px 2px white;
+  	text-shadow: 2.5px 2.5px white;
   	text-align: center;
 }
 
@@ -21,7 +21,7 @@ h1 {
 }
 
 h2 {
-	text-shadow: -2px -2px white;
+	text-shadow: -1px -1px white;
 }
 
 ul {
