@@ -2,7 +2,11 @@
 body {
 	background-color: black;
 	background-image: url("paper.jpg");
-	background-size: 100%;
+	width: 100%;
+	/*position: absolute;*/
+	top: 0;
+	left: 0;
+	/*background-size: 100%;*/
 	background-repeat: no-repeat;
 	/*background-position: center;*/
 	opacity: 1.0;
@@ -33,7 +37,7 @@ ul {
 	margin: 1000;
 	padding: 0;
 	bottom: 0;
-	font-size: 40px;
+	font-size: 30px;
 	/*color: black;*/
 	text-shadow: -2px -2px white;
 }
@@ -52,3 +56,10 @@ nav a:active {
 	text-shadow: -2px -2px #003300;
 	text-decoration: none;
 }
+
+/*#img.source-image {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}*/
