@@ -1,5 +1,6 @@
-/*background image*/
-body {
+/*Body Styles*/
+
+body.home {
 	background-color: black;
 	background-image: url("paper.jpg");
 	width: 100%;
@@ -12,21 +13,89 @@ body {
 	opacity: 1.0;
 	}
 
-header {
+body.add {
+	/*background-color: #600000;*/
+	background: radial-gradient(#600000, #660033, black);
+	background-attachment: fixed;
+	height: 100%
+	}	
+
+body.look {
+	/*background-color: #600000;*/
+	background-color: grey;
+	background-attachment: fixed;
+	height: 100%
+	}
+
+body.ask {
+	/*background-color: #600000;*/
+	background-color: grey;
+	background-attachment: fixed;
+	height: 100%
+	}
+
+
+/*Header Styles*/
+
+header.home {
 	font-size: 30px;
   	color: black;
   	text-shadow: 2.5px 2.5px white;
   	text-align: center;
 }
 
-h1 {
+header.add {
+	font-size: 30px;
+  	color: white;
+  	text-shadow: 2.5px 2.5px red;
+  	text-align: center;
+}
+
+header.look {
+	font-size: 30px;
+  	color: white;
+  	text-shadow: 2.5px 2.5px black;
+  	text-align: center;
+}
+
+header.ask {
+	font-size: 30px;
+  	color: white;
+  	text-shadow: 2.5px 2.5px black;
+  	text-align: center;
+}
+
+h1.home {
 	display: inline;
+	font-size:  100px;
 	/*background-color: black;*/
 }
 
-h2 {
+h2.home {
 	text-shadow: -1px -1px white;
+	font-size:  50px;
 }
+
+h1.add {
+	display: inline;
+	font-size:  50px;
+	/*background-color: black;*/
+}
+
+h1.look {
+	display: inline;
+	font-size:  50px;
+	/*background-color: black;*/
+}
+
+h1.ask {
+	display: inline;
+	font-size:  50px;
+	/*background-color: black;*/
+}
+
+
+/*Nav Styles*/
 
 ul {
 	display: inline;
@@ -38,17 +107,17 @@ ul {
 	padding: 0;
 	bottom: 0;
 	font-size: 30px;
-	/*color: black;*/
+	line-height: 20px;
 	text-shadow: -2px -2px white;
 }
 
 nav a {
-	color: grey;
+	color: #888888;
 	text-decoration: none;
 }
 
 nav a:hover {
-	text-shadow: -2px -2px red;
+	text-shadow: -2px -2px black;
 	text-decoration: underline;
 }
 
