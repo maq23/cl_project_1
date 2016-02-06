@@ -22,14 +22,14 @@ body.add {
 
 body.look {
 	/*background-color: #600000;*/
-	background-color: grey;
+	background: linear-gradient(to top right, #a56d3f, #874610, #6f3800);
 	background-attachment: fixed;
 	height: 100%
 	}
 
 body.ask {
 	/*background-color: #600000;*/
-	background-color: grey;
+	background: linear-gradient(to right, #135358, #1a454b 10%, #17403d 20%);
 	background-attachment: fixed;
 	height: 100%
 	}
@@ -68,10 +68,10 @@ header.ask {
 h1.home {
 	display: inline;
 	font-size:  100px;
-	/*background-color: black;*/
 }
 
 h2.home {
+	display: inline;
 	text-shadow: -1px -1px white;
 	font-size:  50px;
 }
@@ -79,19 +79,16 @@ h2.home {
 h1.add {
 	display: inline;
 	font-size:  50px;
-	/*background-color: black;*/
 }
 
 h1.look {
 	display: inline;
 	font-size:  50px;
-	/*background-color: black;*/
 }
 
 h1.ask {
 	display: inline;
 	font-size:  50px;
-	/*background-color: black;*/
 }
 
 
@@ -117,8 +114,8 @@ nav a {
 }
 
 nav a:hover {
-	text-shadow: -2px -2px black;
-	text-decoration: underline;
+	text-shadow: -2px -2px red;
+	text-decoration: none;
 }
 
 nav a:active {
