@@ -4,13 +4,12 @@ body.home {
 	background-color: black;
 	background-image: url("paper.jpg");
 	width: 100%;
-	/*position: absolute;*/
+	position: relative;
 	top: 0;
 	left: 0;
 	/*background-size: 100%;*/
 	background-repeat: no-repeat;
 	/*background-position: center;*/
-	opacity: 1.0;
 	}
 
 body.add {
@@ -42,6 +41,7 @@ header.home {
   	color: black;
   	text-shadow: 2.5px 2.5px white;
   	text-align: center;
+  	position: relative;
 }
 
 header.add {
@@ -96,13 +96,6 @@ h1.ask {
 
 
 /*Nav Styles*/
-
-/*.button {
-    background-color: #f44336;
-    font-size: 16px;
-    border-radius: 12px;
-    border: 2px solid black;
-}*/
 
 ul {
 	display: inline-block;
